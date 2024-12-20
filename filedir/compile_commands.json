@@ -1,0 +1,28 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I../include/",
+      "-o",
+      "myls",
+      "myls.c"
+    ],
+    "directory": "/home/yakumozi/workspace/projects/c/apue/filedir",
+    "file": "/home/yakumozi/workspace/projects/c/apue/filedir/myls.c",
+    "output": "/home/yakumozi/workspace/projects/c/apue/filedir/myls"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I../include/",
+      "-o",
+      "myls",
+      "../lib/error.c"
+    ],
+    "directory": "/home/yakumozi/workspace/projects/c/apue/filedir",
+    "file": "/home/yakumozi/workspace/projects/c/apue/lib/error.c",
+    "output": "/home/yakumozi/workspace/projects/c/apue/filedir/myls"
+  }
+]
