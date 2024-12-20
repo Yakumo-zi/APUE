@@ -1,0 +1,10 @@
+set shell := ["fish", "-c"]
+
+static_lib := "../lib/"
+lib_files :="../lib/error.c"
+include := "../include/"
+target :={{fzf}}
+
+build:
+  echo {{target}}
+

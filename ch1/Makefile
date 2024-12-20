@@ -1,6 +1,7 @@
 LIBDIR=../lib/
 INCLUDE=../include/
 LIBS=../lib/error.c
+
 TARGET:=$(subst .c,,$(FILE))
 
 .PHONY:all clean
