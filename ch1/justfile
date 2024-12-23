@@ -3,8 +3,9 @@ set shell := ["fish", "-c"]
 static_lib := "../lib/"
 lib_files :="../lib/error.c"
 include := "../include/"
-target :={{fzf}}
 
-build:
-  echo {{target}}
+build file:
+  gcc {{lib_files}} -I{{include}} -L{{static_lib}} {{file}}
 
+clean:
+  rm a.out
