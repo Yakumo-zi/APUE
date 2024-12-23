@@ -4,25 +4,19 @@
       "/usr/bin/gcc",
       "-c",
       "-I../include/",
-      "-o",
-      "myls",
-      "myls.c"
+      "../lib/error.c"
     ],
-    "directory": "/home/yakumozi/workspace/projects/c/apue/filedir",
-    "file": "/home/yakumozi/workspace/projects/c/apue/filedir/myls.c",
-    "output": "/home/yakumozi/workspace/projects/c/apue/filedir/myls"
+    "directory": "/home/yakumozi/workspace/projects/c/apue/ch1",
+    "file": "/home/yakumozi/workspace/projects/c/apue/lib/error.c"
   },
   {
     "arguments": [
       "/usr/bin/gcc",
       "-c",
       "-I../include/",
-      "-o",
-      "myls",
-      "../lib/error.c"
+      "mycp.c"
     ],
-    "directory": "/home/yakumozi/workspace/projects/c/apue/filedir",
-    "file": "/home/yakumozi/workspace/projects/c/apue/lib/error.c",
-    "output": "/home/yakumozi/workspace/projects/c/apue/filedir/myls"
+    "directory": "/home/yakumozi/workspace/projects/c/apue/ch1",
+    "file": "/home/yakumozi/workspace/projects/c/apue/ch1/mycp.c"
   }
 ]
